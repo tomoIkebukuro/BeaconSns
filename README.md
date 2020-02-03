@@ -4,7 +4,7 @@ ___
 セキュリティ上の理由でgoogle-services.jsonとAndroidManifest.xmlを削除しています。実際に動作させる際には[firebase](https://pub.dev/packages/google_maps_flutter)を[google map](https://pub.dev/packages/google_maps_flutter)を参考にして新しくファイルを作ってください。
 ___
 #### はじめに
-flutterとfirebaseを使って制作されたsnsアプリです。実際の現在地周辺のコメントを表示し、Google Mapを使って表示します。デザイン、ソースコードの整理ともに完了できてないです。今後はChangeNotifierProviderを使ってソースコードの書き換えを考えています。開発環境は以下の通りです。
+flutterとfirebaseを使って制作されたsnsアプリです。実際の現在地周辺のコメントを表示し、Google Mapを使って表示します。近くの人と繋がりたいという需要はあるにも関わらず、それを実現したsnsがなかったので制作しました。今後はChangeNotifierProviderを使ってソースコードの書き換えを考えています。開発環境は以下の通りです。
 ~~~
 %flutter doctor
 Doctor summary (to see all details, run flutter doctor -v):
